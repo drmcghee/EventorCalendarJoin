@@ -1,0 +1,239 @@
+BEGIN:VCALENDAR
+PRODID:-//Svenska Orienteringsförbundet//Eventor
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:Sydney Summer Series Season 29 "Map Running Sydney"
+METHOD:O
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200212T050000Z
+DTEND:20200212T083000Z
+SUMMARY:SSS Season 29 Event #19\, Bennelong Northside Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9036
+TRANSP:OPAQUE
+UID:Event_9036@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.85634;151.28369
+DTSTAMP:20190910T233409Z
+DTSTART:20191009T050000Z
+DTEND:20191009T083000Z
+SUMMARY:Sydney Summer Series Season 29 "Map Running Sydney" at Vaucluse\, Western and Hills Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/8958
+TRANSP:OPAQUE
+UID:Event_8958@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200219T050000Z
+DTEND:20200219T083000Z
+SUMMARY:SSS Season 29 Event #20\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9041
+TRANSP:OPAQUE
+UID:Event_9041@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200304T050000Z
+DTEND:20200304T083000Z
+SUMMARY:SSS Season 29 Event #22\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9052
+TRANSP:OPAQUE
+UID:Event_9052@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200318T050000Z
+DTEND:20200318T083000Z
+SUMMARY:SSS Season 29 Event #24\, Western and Hills Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9058
+TRANSP:OPAQUE
+UID:Event_9058@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.83289;151.13939
+DTSTAMP:20190909T062151Z
+DTSTART:20200122T050000Z
+DTEND:20200122T083000Z
+SUMMARY:SSS Season 29 Event #16\, Uringa Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9024
+TRANSP:OPAQUE
+UID:Event_9024@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200226T050000Z
+DTEND:20200226T083000Z
+SUMMARY:SSS Season 29 Event #21\, Western and Hills Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9046
+TRANSP:OPAQUE
+UID:Event_9046@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200101T050000Z
+DTEND:20200101T083000Z
+SUMMARY:SSS Season 29 Event #13\, Big Foot Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9012
+TRANSP:OPAQUE
+UID:Event_9012@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.80903;151.2668
+DTSTAMP:20190904T020621Z
+DTSTART:20191023T050000Z
+DTEND:20191023T083000Z
+SUMMARY:SSS Season 29 Event #3\, Bennelong Northside Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/8968
+TRANSP:OPAQUE
+UID:Event_8968@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200325T050000Z
+DTEND:20200325T083000Z
+SUMMARY:SSS Season 29 Event #25\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9062
+TRANSP:OPAQUE
+UID:Event_9062@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191204T050000Z
+DTEND:20191204T083000Z
+SUMMARY:SSS Season 29 Event #9\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9000
+TRANSP:OPAQUE
+UID:Event_9000@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.82677;151.11364
+DTSTAMP:20190904T020434Z
+DTSTART:20191016T050000Z
+DTEND:20191016T083000Z
+SUMMARY:SSS Season 29 Event #2\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/8961
+TRANSP:OPAQUE
+UID:Event_8961@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.81524;151.24698
+DTSTAMP:20190904T052732Z
+DTSTART:20191223T050000Z
+DTEND:20191223T083000Z
+SUMMARY:SSS Season 29 Event #12\, Bennelong Northside Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9011
+TRANSP:OPAQUE
+UID:Event_9011@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200311T050000Z
+DTEND:20200311T083000Z
+SUMMARY:SSS Season 29 Event #23\, Bennelong Northside Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9056
+TRANSP:OPAQUE
+UID:Event_9056@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.84475;151.20131
+DTSTAMP:20190904T020708Z
+DTSTART:20191030T050000Z
+DTEND:20191030T083000Z
+SUMMARY:SSS Season 29 Event #4\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/8972
+TRANSP:OPAQUE
+UID:Event_8972@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200129T050000Z
+DTEND:20200129T083000Z
+SUMMARY:SSS Season 29 Event #17\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9028
+TRANSP:OPAQUE
+UID:Event_9028@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200205T050000Z
+DTEND:20200205T083000Z
+SUMMARY:SSS Season 29 Event #18\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9033
+TRANSP:OPAQUE
+UID:Event_9033@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191211T050000Z
+DTEND:20191211T083000Z
+SUMMARY:SSS Season 29 Event #10\, Big Foot Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9005
+TRANSP:OPAQUE
+UID:Event_9005@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191127T050000Z
+DTEND:20191127T083000Z
+SUMMARY:SSS Season 29 Event #8\, Bennelong Northside Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/8994
+TRANSP:OPAQUE
+UID:Event_8994@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191218T050000Z
+DTEND:20191218T083000Z
+SUMMARY:SSS Season 29 Event #11\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9010
+TRANSP:OPAQUE
+UID:Event_9010@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200108T050000Z
+DTEND:20200108T083000Z
+SUMMARY:SSS Season 29 Event #14\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9016
+TRANSP:OPAQUE
+UID:Event_9016@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.79891;151.07054
+DTSTAMP:20190911T003204Z
+DTSTART:20191106T050000Z
+DTEND:20191106T083000Z
+SUMMARY:Sydney Summer Series Season 29 "Sydney Map Running" at Brush Farm\, Western and Hills Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/8977
+TRANSP:OPAQUE
+UID:Event_8977@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191113T050000Z
+DTEND:20191113T083000Z
+SUMMARY:SSS Season 29 Event #6\, Garingal Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/8982
+TRANSP:OPAQUE
+UID:Event_8982@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200115T050000Z
+DTEND:20200115T083000Z
+SUMMARY:SSS Season 29 Event #15\, Bennelong Northside Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/9020
+TRANSP:OPAQUE
+UID:Event_9020@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191120T050000Z
+DTEND:20191120T083000Z
+SUMMARY:SSS Season 29 Event #7\, Uringa Orienteers
+URL:https://eventor.orienteering.asn.au/Events/Show/8987
+TRANSP:OPAQUE
+UID:Event_8987@eventor.orienteering.asn.au
+END:VEVENT
+END:VCALENDAR
