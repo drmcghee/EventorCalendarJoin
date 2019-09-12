@@ -48,21 +48,45 @@ def GetMultiEventICSFile(namePrefix, synonymPrefix, dateStart, dateEnd):
     else:
         xpath = "/EventList/Event[starts-with(Name,'{0}')]/EventId".format(namePrefix)
 
+    # also add the eventor message location if available
+    if (synonymPrefix):
+        xpath += " | /EventList/Event[(starts-with(Name,'{0}')) or (starts-with(Name,'{1}'))]/HashTableEntry[(Key='Eventor_Message') and starts-with(Value,'Location') ]/Value".format(namePrefix, synonymPrefix)
+    else:
+        xpath += " | /EventList/Event[starts-with(Name,'{0}')]/HashTableEntry[(Key='Eventor_Message') and starts-with(Value,'Location') ]/Value".format(namePrefix)
+
     eventids = root.xpath(xpath)
     print("Searched and found {0} events".format(len(eventids)))
 
+    eventdata = {}
 
+
+    for eventid in eventids:
+        if (eventid.tag=='EventId'):  
+            eventdata[eventid.text] = ""
+            lasteventid = eventid.text
+        if (eventid.tag=="Value"):
+            location = ''.join(eventid.text.split('\n')[0:1])
+            location = location.replace("Location: ","")
+            eventdata[lasteventid] = location
+    
     from ics import Calendar
 
     mainCal= None
-    for eventid in eventids:
-        icsURL = "https://eventor.orienteering.asn.au/Events/ICalendar/{0}".format(eventid.text)
-        c = Calendar(requests.get(icsURL).text)
-        if mainCal is None:
-            mainCal = c
-        else:
-            for event in c.events: 
-                mainCal.events.add(event)
+    for key, value in eventdata.items():     
+            icsURL = "https://eventor.orienteering.asn.au/Events/ICalendar/{0}".format(key)
+            # get the calendar from eventor
+            
+            print("Reading ICS file for event id {0}".format(key))  
+            c = Calendar(requests.get(icsURL).text)
+            # create main calendar if it doesnt exist
+            if mainCal is None:
+                mainCal = c
+                for event in c.events: 
+                    event.location = value
+            else:
+                for event in c.events: 
+                    event.location = value
+                    mainCal.events.add(event)
 
     print("Writing combined {0} events".format(len(mainCal.events)))        
     with open('{0}.ics'.format(namePrefix), 'w',newline='') as f:

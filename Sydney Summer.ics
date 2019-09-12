@@ -1,24 +1,26 @@
 BEGIN:VCALENDAR
 PRODID:-//Svenska Orienteringsförbundet//Eventor
 VERSION:2.0
+CALSCALE:GEORGIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Sydney Summer Series Season 29 "Map Running Sydney"
-METHOD:O
 BEGIN:VEVENT
 DTSTAMP:20190830T000000Z
 DTSTART:20200212T050000Z
 DTEND:20200212T083000Z
 SUMMARY:SSS Season 29 Event #19\, Bennelong Northside Orienteers
+LOCATION:Forestville War Memorial Park\, Melwood Avenue
 URL:https://eventor.orienteering.asn.au/Events/Show/9036
 TRANSP:OPAQUE
 UID:Event_9036@eventor.orienteering.asn.au
 END:VEVENT
 BEGIN:VEVENT
-GEO:-33.85634;151.28369
-DTSTAMP:20190910T233409Z
+GEO:-33.85628;151.28346
+DTSTAMP:20190911T071408Z
 DTSTART:20191009T050000Z
 DTEND:20191009T083000Z
 SUMMARY:Sydney Summer Series Season 29 "Map Running Sydney" at Vaucluse\, Western and Hills Orienteers
+LOCATION:Christison Park\, Old South Head Road\, Vaucluse. Alongside the grandstand opposite Village High Road.
 URL:https://eventor.orienteering.asn.au/Events/Show/8958
 TRANSP:OPAQUE
 UID:Event_8958@eventor.orienteering.asn.au
@@ -28,6 +30,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200219T050000Z
 DTEND:20200219T083000Z
 SUMMARY:SSS Season 29 Event #20\, Garingal Orienteers
+LOCATION:Forestville War Memorial Park\, Melwood Avenue
 URL:https://eventor.orienteering.asn.au/Events/Show/9041
 TRANSP:OPAQUE
 UID:Event_9041@eventor.orienteering.asn.au
@@ -37,6 +40,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200304T050000Z
 DTEND:20200304T083000Z
 SUMMARY:SSS Season 29 Event #22\, Garingal Orienteers
+LOCATION:Willoughby Park\, Warrane Street\, Willoughby East
 URL:https://eventor.orienteering.asn.au/Events/Show/9052
 TRANSP:OPAQUE
 UID:Event_9052@eventor.orienteering.asn.au
@@ -46,6 +50,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200318T050000Z
 DTEND:20200318T083000Z
 SUMMARY:SSS Season 29 Event #24\, Western and Hills Orienteers
+LOCATION:The Glade Reserve\, Koora Avenue\, Wahroonga
 URL:https://eventor.orienteering.asn.au/Events/Show/9058
 TRANSP:OPAQUE
 UID:Event_9058@eventor.orienteering.asn.au
@@ -56,6 +61,7 @@ DTSTAMP:20190909T062151Z
 DTSTART:20200122T050000Z
 DTEND:20200122T083000Z
 SUMMARY:SSS Season 29 Event #16\, Uringa Orienteers
+LOCATION:St Joseph's College\, Hunters Hill (Gladesville Rd Entrance)
 URL:https://eventor.orienteering.asn.au/Events/Show/9024
 TRANSP:OPAQUE
 UID:Event_9024@eventor.orienteering.asn.au
@@ -65,6 +71,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200226T050000Z
 DTEND:20200226T083000Z
 SUMMARY:SSS Season 29 Event #21\, Western and Hills Orienteers
+LOCATION:George Thornton Reserve\, Hill Road\, West Pennant Hills
 URL:https://eventor.orienteering.asn.au/Events/Show/9046
 TRANSP:OPAQUE
 UID:Event_9046@eventor.orienteering.asn.au
@@ -74,6 +81,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200101T050000Z
 DTEND:20200101T083000Z
 SUMMARY:SSS Season 29 Event #13\, Big Foot Orienteers
+LOCATION:Cheltenham Park\, Castle Howard Road\, Cheltenham
 URL:https://eventor.orienteering.asn.au/Events/Show/9012
 TRANSP:OPAQUE
 UID:Event_9012@eventor.orienteering.asn.au
@@ -84,6 +92,7 @@ DTSTAMP:20190904T020621Z
 DTSTART:20191023T050000Z
 DTEND:20191023T083000Z
 SUMMARY:SSS Season 29 Event #3\, Bennelong Northside Orienteers
+LOCATION:Tania Park\, Bareena Drive\, Balgowlah Heights
 URL:https://eventor.orienteering.asn.au/Events/Show/8968
 TRANSP:OPAQUE
 UID:Event_8968@eventor.orienteering.asn.au
@@ -93,6 +102,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200325T050000Z
 DTEND:20200325T083000Z
 SUMMARY:SSS Season 29 Event #25\, Garingal Orienteers
+LOCATION:Harold Park\, Maxwell Road\, Glebe Point
 URL:https://eventor.orienteering.asn.au/Events/Show/9062
 TRANSP:OPAQUE
 UID:Event_9062@eventor.orienteering.asn.au
@@ -102,6 +112,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20191204T050000Z
 DTEND:20191204T083000Z
 SUMMARY:SSS Season 29 Event #9\, Garingal Orienteers
+LOCATION:Cliff Reserve\, Cliff Avenue\, North Wahroonga
 URL:https://eventor.orienteering.asn.au/Events/Show/9000
 TRANSP:OPAQUE
 UID:Event_9000@eventor.orienteering.asn.au
@@ -112,6 +123,7 @@ DTSTAMP:20190904T020434Z
 DTSTART:20191016T050000Z
 DTEND:20191016T083000Z
 SUMMARY:SSS Season 29 Event #2\, Garingal Orienteers
+LOCATION:Morrison Bay Park\, Frances Road\, Putney
 URL:https://eventor.orienteering.asn.au/Events/Show/8961
 TRANSP:OPAQUE
 UID:Event_8961@eventor.orienteering.asn.au
@@ -122,6 +134,7 @@ DTSTAMP:20190904T052732Z
 DTSTART:20191223T050000Z
 DTEND:20191223T083000Z
 SUMMARY:SSS Season 29 Event #12\, Bennelong Northside Orienteers
+LOCATION:Rosherville Reserve\, McLean Crescent\, The Spit
 URL:https://eventor.orienteering.asn.au/Events/Show/9011
 TRANSP:OPAQUE
 UID:Event_9011@eventor.orienteering.asn.au
@@ -131,6 +144,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200311T050000Z
 DTEND:20200311T083000Z
 SUMMARY:SSS Season 29 Event #23\, Bennelong Northside Orienteers
+LOCATION:Millers Reserve\, Campbell Parade\, Manly Vale
 URL:https://eventor.orienteering.asn.au/Events/Show/9056
 TRANSP:OPAQUE
 UID:Event_9056@eventor.orienteering.asn.au
@@ -141,6 +155,7 @@ DTSTAMP:20190904T020708Z
 DTSTART:20191030T050000Z
 DTEND:20191030T083000Z
 SUMMARY:SSS Season 29 Event #4\, Garingal Orienteers
+LOCATION:Scout Hall\, Munro Street\, McMahons Point
 URL:https://eventor.orienteering.asn.au/Events/Show/8972
 TRANSP:OPAQUE
 UID:Event_8972@eventor.orienteering.asn.au
@@ -150,6 +165,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200129T050000Z
 DTEND:20200129T083000Z
 SUMMARY:SSS Season 29 Event #17\, Garingal Orienteers
+LOCATION:KP Village Green\, Kissing Point Road\, South Turramurra
 URL:https://eventor.orienteering.asn.au/Events/Show/9028
 TRANSP:OPAQUE
 UID:Event_9028@eventor.orienteering.asn.au
@@ -159,6 +175,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200205T050000Z
 DTEND:20200205T083000Z
 SUMMARY:SSS Season 29 Event #18\, Garingal Orienteers
+LOCATION:Northbridge Oval\, Sailors Bay Road\, Northbridge
 URL:https://eventor.orienteering.asn.au/Events/Show/9033
 TRANSP:OPAQUE
 UID:Event_9033@eventor.orienteering.asn.au
@@ -168,6 +185,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20191211T050000Z
 DTEND:20191211T083000Z
 SUMMARY:SSS Season 29 Event #10\, Big Foot Orienteers
+LOCATION:Netball car park\, off Brittannia Street\, Pennant Hills
 URL:https://eventor.orienteering.asn.au/Events/Show/9005
 TRANSP:OPAQUE
 UID:Event_9005@eventor.orienteering.asn.au
@@ -177,6 +195,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20191127T050000Z
 DTEND:20191127T083000Z
 SUMMARY:SSS Season 29 Event #8\, Bennelong Northside Orienteers
+LOCATION:Brett Park\, Formosa Street\, Drummoyne
 URL:https://eventor.orienteering.asn.au/Events/Show/8994
 TRANSP:OPAQUE
 UID:Event_8994@eventor.orienteering.asn.au
@@ -186,6 +205,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20191218T050000Z
 DTEND:20191218T083000Z
 SUMMARY:SSS Season 29 Event #11\, Garingal Orienteers
+LOCATION:Artarmon Reserve\, end Burra Road\, Artarmon
 URL:https://eventor.orienteering.asn.au/Events/Show/9010
 TRANSP:OPAQUE
 UID:Event_9010@eventor.orienteering.asn.au
@@ -195,6 +215,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200108T050000Z
 DTEND:20200108T083000Z
 SUMMARY:SSS Season 29 Event #14\, Garingal Orienteers
+LOCATION:Warriewood SLSC\, Narrabeen Park Parade\, Warriewood
 URL:https://eventor.orienteering.asn.au/Events/Show/9016
 TRANSP:OPAQUE
 UID:Event_9016@eventor.orienteering.asn.au
@@ -205,6 +226,7 @@ DTSTAMP:20190911T003204Z
 DTSTART:20191106T050000Z
 DTEND:20191106T083000Z
 SUMMARY:Sydney Summer Series Season 29 "Sydney Map Running" at Brush Farm\, Western and Hills Orienteers
+LOCATION:Guide Hall\, Brush Road (opp Warrawong St)\, West Ryde
 URL:https://eventor.orienteering.asn.au/Events/Show/8977
 TRANSP:OPAQUE
 UID:Event_8977@eventor.orienteering.asn.au
@@ -214,6 +236,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20191113T050000Z
 DTEND:20191113T083000Z
 SUMMARY:SSS Season 29 Event #6\, Garingal Orienteers
+LOCATION:Pioneers Memorial Park\, William Street\, Leichhardt
 URL:https://eventor.orienteering.asn.au/Events/Show/8982
 TRANSP:OPAQUE
 UID:Event_8982@eventor.orienteering.asn.au
@@ -223,6 +246,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20200115T050000Z
 DTEND:20200115T083000Z
 SUMMARY:SSS Season 29 Event #15\, Bennelong Northside Orienteers
+LOCATION:Pottery Green\, Phoenix Street\, Lane Cove
 URL:https://eventor.orienteering.asn.au/Events/Show/9020
 TRANSP:OPAQUE
 UID:Event_9020@eventor.orienteering.asn.au
@@ -232,6 +256,7 @@ DTSTAMP:20190830T000000Z
 DTSTART:20191120T050000Z
 DTEND:20191120T083000Z
 SUMMARY:SSS Season 29 Event #7\, Uringa Orienteers
+LOCATION:St Lukes Park\, Crane Street\, Concord
 URL:https://eventor.orienteering.asn.au/Events/Show/8987
 TRANSP:OPAQUE
 UID:Event_8987@eventor.orienteering.asn.au
