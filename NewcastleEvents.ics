@@ -1,0 +1,313 @@
+BEGIN:VCALENDAR
+PRODID:-//Svenska Orienteringsförbundet//Eventor
+VERSION:2.0
+CALSCALE:GEORGIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191120T060000Z
+DTEND:20191120T073000Z
+SUMMARY:Newcastle SS Event 6\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/8986
+TRANSP:OPAQUE
+UID:Event_8986@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200115T060000Z
+DTEND:20200115T073000Z
+SUMMARY:Newcastle SS Event 12\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9019
+TRANSP:OPAQUE
+UID:Event_9019@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200212T060000Z
+DTEND:20200212T073000Z
+SUMMARY:Newcastle SS Event 16\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9035
+TRANSP:OPAQUE
+UID:Event_9035@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-32.9097;151.61021
+DTSTAMP:20190920T025040Z
+DTSTART:20191009T060000Z
+DTEND:20191009T073000Z
+SUMMARY:Newcastle SS Warm Up Event\, Newcastle Orienteering Club
+LOCATION:Cameron Park New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/8957
+TRANSP:OPAQUE
+UID:Event_8957@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200219T060000Z
+DTEND:20200219T073000Z
+SUMMARY:Newcastle SS Event 17\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9040
+TRANSP:OPAQUE
+UID:Event_9040@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200304T060000Z
+DTEND:20200304T073000Z
+SUMMARY:Newcastle Urban Series Qualifier 1\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9051
+TRANSP:OPAQUE
+UID:Event_9051@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200318T060000Z
+DTEND:20200318T073000Z
+SUMMARY:Newcastle Urban Series Qualifier 3\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9057
+TRANSP:OPAQUE
+UID:Event_9057@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200122T060000Z
+DTEND:20200122T073000Z
+SUMMARY:Newcastle SS Event 13\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9023
+TRANSP:OPAQUE
+UID:Event_9023@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190328T034615Z
+DTSTART:20191130T223000Z
+DTEND:20191201T023000Z
+SUMMARY:Bush Presentation + Event - MARTINSVILLE\, Newcastle Orienteering Club
+LOCATION:The Stafford's\, Martinsville
+URL:https://eventor.orienteering.asn.au/Events/Show/8474
+TRANSP:OPAQUE
+UID:Event_8474@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.07414;151.48477
+DTSTAMP:20190909T045642Z
+DTSTART:20191207T210000Z
+DTEND:20191208T000000Z
+SUMMARY:BOSS Season 2019/2020 Event 3 Hawkemount South\, Newcastle Orienteering Club
+LOCATION:Hawkemount South\, Dora Creek
+URL:https://eventor.orienteering.asn.au/Events/Show/7750
+TRANSP:OPAQUE
+UID:Event_7750@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200226T060000Z
+DTEND:20200226T073000Z
+SUMMARY:Newcastle SS Presentation Event\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9045
+TRANSP:OPAQUE
+UID:Event_9045@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191023T060000Z
+DTEND:20191023T073000Z
+SUMMARY:Newcastle SS Event 2\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/8967
+TRANSP:OPAQUE
+UID:Event_8967@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190909T052909Z
+DTSTART:20200314T210000Z
+DTEND:20200314T220000Z
+SUMMARY:BOSS Season 2019/2020 Event 6 & Presentation\, Newcastle Orienteering Club
+LOCATION:TBA
+URL:https://eventor.orienteering.asn.au/Events/Show/9147
+TRANSP:OPAQUE
+UID:Event_9147@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200325T060000Z
+DTEND:20200325T073000Z
+SUMMARY:Newcastle Urban Series Final\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9061
+TRANSP:OPAQUE
+UID:Event_9061@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-32.90961;151.61044
+DTSTAMP:20190920T025124Z
+DTSTART:20191016T060000Z
+DTEND:20191016T073000Z
+SUMMARY:Newcastle SS Event 1\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/8960
+TRANSP:OPAQUE
+UID:Event_8960@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-32.90501;151.56496
+DTSTAMP:20190909T050912Z
+DTSTART:20200215T210000Z
+DTEND:20200215T220000Z
+SUMMARY:BOSS Season 2019/2020 Event 5 - Fairley Dams\, Newcastle Orienteering Club
+LOCATION:near M1 overpass O'Donnelltown Road\, Fairley Dams
+URL:https://eventor.orienteering.asn.au/Events/Show/9146
+TRANSP:OPAQUE
+UID:Event_9146@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200311T060000Z
+DTEND:20200311T073000Z
+SUMMARY:Newcastle Urban Series Qualifier 2\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9055
+TRANSP:OPAQUE
+UID:Event_9055@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191030T060000Z
+DTEND:20191030T073000Z
+SUMMARY:Newcastle SS Event 3\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/8971
+TRANSP:OPAQUE
+UID:Event_8971@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200129T060000Z
+DTEND:20200129T073000Z
+SUMMARY:Newcastle SS Event 14\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9027
+TRANSP:OPAQUE
+UID:Event_9027@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200205T060000Z
+DTEND:20200205T073000Z
+SUMMARY:Newcastle SS Event 15\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9032
+TRANSP:OPAQUE
+UID:Event_9032@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.14346;151.50761
+DTSTAMP:20190909T045400Z
+DTSTART:20191109T210000Z
+DTEND:20191110T000000Z
+SUMMARY:BOSS Season 2019/2020 Event 2 Wyee Point\, Newcastle Orienteering Club
+LOCATION:Wyee Point
+URL:https://eventor.orienteering.asn.au/Events/Show/7749
+TRANSP:OPAQUE
+UID:Event_7749@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191211T060000Z
+DTEND:20191211T073000Z
+SUMMARY:Newcastle SS Event 9\, Newcastle Orienteering Club
+LOCATION:TBA
+URL:https://eventor.orienteering.asn.au/Events/Show/9004
+TRANSP:OPAQUE
+UID:Event_9004@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191127T060000Z
+DTEND:20191127T073000Z
+SUMMARY:Newcastle SS Event 7\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/8993
+TRANSP:OPAQUE
+UID:Event_8993@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191204T060000Z
+DTEND:20191204T073000Z
+SUMMARY:Newcastle SS Event 8\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/8999
+TRANSP:OPAQUE
+UID:Event_8999@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20200108T060000Z
+DTEND:20200108T073000Z
+SUMMARY:Newcastle SS Event 11\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9015
+TRANSP:OPAQUE
+UID:Event_9015@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-32.91981;151.57968
+DTSTAMP:20190909T050248Z
+DTSTART:20200111T210000Z
+DTEND:20200111T220000Z
+SUMMARY:BOSS Season 2019/2020 Event 4 Holmesville\, Newcastle Orienteering Club
+LOCATION:Kevin Evans Oval\, Holmesville
+URL:https://eventor.orienteering.asn.au/Events/Show/9145
+TRANSP:OPAQUE
+UID:Event_9145@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191106T060000Z
+DTEND:20191106T073000Z
+SUMMARY:Newcastle SS Event 4\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/8976
+TRANSP:OPAQUE
+UID:Event_8976@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191113T060000Z
+DTEND:20191113T073000Z
+SUMMARY:Newcastle SS Event 5\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/8981
+TRANSP:OPAQUE
+UID:Event_8981@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-32.92629;151.56022
+DTSTAMP:20190719T021745Z
+DTSTART:20191012T210000Z
+DTEND:20191012T210000Z
+SUMMARY:BOSS Season 2019/2020 Event 1 Killingworth South\, Newcastle Orienteering Club
+LOCATION:Killingworth South
+URL:https://eventor.orienteering.asn.au/Events/Show/7748
+TRANSP:OPAQUE
+UID:Event_7748@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20190830T000000Z
+DTSTART:20191218T060000Z
+DTEND:20191218T073000Z
+SUMMARY:Newcastle SS Event 10\, Newcastle Orienteering Club
+LOCATION:Newcastle New South Wales\, Australia
+URL:https://eventor.orienteering.asn.au/Events/Show/9009
+TRANSP:OPAQUE
+UID:Event_9009@eventor.orienteering.asn.au
+END:VEVENT
+END:VCALENDAR

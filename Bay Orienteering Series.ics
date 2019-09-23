@@ -1,0 +1,105 @@
+BEGIN:VCALENDAR
+PRODID:-//Svenska Orienteringsförbundet//Eventor
+VERSION:2.0
+CALSCALE:GEORGIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+GEO:-33.97306;151.14256
+DTSTAMP:20190917T054930Z
+DTSTART:20191013T050000Z
+DTEND:20191013T070000Z
+SUMMARY:Bay Orienteering Series BOS 1 - Scarborough Park\, Barton St\, Monterey\, Illawarra Kareelah Orienteers / Uringa Orienteers
+LOCATION:Scarborough Park\, Barton Street\, Monterey
+URL:https://eventor.orienteering.asn.au/Events/Show/8720
+TRANSP:OPAQUE
+UID:Event_8720@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-34.00327;151.13494
+DTSTAMP:20190917T060017Z
+DTSTART:20191103T050000Z
+DTEND:20191103T070000Z
+SUMMARY:Bay Orienteering Series BOS 4 - Scott Park\, Riverside Drive\, Sans Souci \, Illawarra Kareelah Orienteers / Uringa Orienteers
+LOCATION:Scott Park\, Riverside Drive\, Sans Souci
+URL:https://eventor.orienteering.asn.au/Events/Show/8723
+TRANSP:OPAQUE
+UID:Event_8723@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.90374;151.11161
+DTSTAMP:20190919T200414Z
+DTSTART:20191117T050000Z
+DTEND:20191117T070000Z
+SUMMARY:River Orienteering Series ROS 1 - Lees Park\,  Ashbury\, Uringa Orienteers
+LOCATION:Lees Park\, Harmony Street\, Ashbury
+URL:https://eventor.orienteering.asn.au/Events/Show/8731
+TRANSP:OPAQUE
+UID:Event_8731@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.91607;151.13597
+DTSTAMP:20190919T201338Z
+DTSTART:20191208T050000Z
+DTEND:20191208T070000Z
+SUMMARY:River Orienteering Series ROS 4 - Beaman Park\, Earlwood\, Uringa Orienteers
+LOCATION:Beaman Park Riverview Rd\, Earlwood
+URL:https://eventor.orienteering.asn.au/Events/Show/8734
+TRANSP:OPAQUE
+UID:Event_8734@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.98846;151.1471
+DTSTAMP:20190917T055336Z
+DTSTART:20191020T050000Z
+DTEND:20191020T070000Z
+SUMMARY:Bay Orienteering Series BOS 2 - Cook Park\, Ramsgate Beach\, Sans Souci\, Illawarra Kareelah Orienteers / Uringa Orienteers
+LOCATION:Cook Park\, The Grand Parade\, Ramsgate Beach\, Sans Souci
+URL:https://eventor.orienteering.asn.au/Events/Show/8721
+TRANSP:OPAQUE
+UID:Event_8721@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.98282;151.14243
+DTSTAMP:20190917T055729Z
+DTSTART:20191027T050000Z
+DTEND:20191027T070000Z
+SUMMARY:Bay Orienteering Series BOS 3 - Tonbridge Street Reserve\, Ramsgate\, Illawarra Kareelah Orienteers / Uringa Orienteers
+LOCATION:Tonbridge Steet reserve\, Tonbridge Street\, Ramsgate
+URL:https://eventor.orienteering.asn.au/Events/Show/8722
+TRANSP:OPAQUE
+UID:Event_8722@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.98889;151.11932
+DTSTAMP:20190919T195835Z
+DTSTART:20191110T050000Z
+DTEND:20191110T070000Z
+SUMMARY:Bay Orienteering Series BOS 5 - Carss Bush Park\, Illawarra Kareelah Orienteers / Uringa Orienteers
+LOCATION:Carss Bush Park\, Cawar Ave\, Carss Park
+URL:https://eventor.orienteering.asn.au/Events/Show/8730
+TRANSP:OPAQUE
+UID:Event_8730@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.9145;151.13044
+DTSTAMP:20190919T200735Z
+DTSTART:20191124T050000Z
+DTEND:20191124T070000Z
+SUMMARY:River Orienteering Series ROS 2 - Ewen Park\, Hurlstone Park\, Uringa Orienteers
+LOCATION:Ewen Park\, Tennent Pde\, Hurlstone Park
+URL:https://eventor.orienteering.asn.au/Events/Show/8736
+TRANSP:OPAQUE
+UID:Event_8736@eventor.orienteering.asn.au
+END:VEVENT
+BEGIN:VEVENT
+GEO:-33.90164;151.09718
+DTSTAMP:20190919T201036Z
+DTSTART:20191201T050000Z
+DTEND:20191201T070000Z
+SUMMARY:River Orienteering Series ROS 3 - Flockhart Park\,  Croydon Park\, NSW Stingers / Uringa Orienteers
+LOCATION:Flockhart Park\, Hextol Street\, Croydon Park 
+URL:https://eventor.orienteering.asn.au/Events/Show/8733
+TRANSP:OPAQUE
+UID:Event_8733@eventor.orienteering.asn.au
+END:VEVENT
+END:VCALENDAR

@@ -7,7 +7,7 @@
             "request": "launch",
             "console": "integratedTerminal",
             "program": "${file}",
-            "args":["--prefix", "Bay Orienteering Series",  "--synonym", "River Orienteering Series", "--location",  "Venue: ","2019-10-13", "2019-12-15"]
+            "args":["Bay Orienteering Series",  "--synonym", "River Orienteering Series", "--location",  "Venue: ","2019-10-13", "2019-12-15"]
         }
     ]
 }

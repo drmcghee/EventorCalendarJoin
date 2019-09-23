@@ -8,9 +8,8 @@ import azure.mgmt.batchai.models.azure_blob_file_system_reference
 import xmltodict, json
 from lxml import etree
 
-# name the flask app
+# name the flask app - this is when I get the time to turn into a website
 #app = Flask(__name__)
-
 #@app.route("/", methods=['GET'])
 def GetEventsRequest():
     """ Handles the flask request
@@ -20,11 +19,16 @@ def GetEventsRequest():
     dateEnd = request.args.get('dateEnd')
 
 
-def GetMultiEventICSFile(namePrefix, synonymPrefix, dateStart, dateEnd):
+def GetMultiEventICSFile(orgIds, namePrefix, synonymPrefix, locationPrefix,dateStart, dateEnd):
     """ Get a list of events based on a search criteria nd return the events in a single ICS calendar file.
     """
 
-    url = "https://eventor.orienteering.asn.au/api/events?fromDate={0}&toDate={1}".format(dateStart, dateEnd)
+    if(orgIds):   
+        print("Searching eventor for events between {0} and {1} for organisationIds {2}".format(dateStart,dateEnd, orgIds))
+        url = "https://eventor.orienteering.asn.au/api/events?fromDate={0}&toDate={1}&organisationIds={2}".format(dateStart, dateEnd,orgIds)
+    else:      
+        print("Searching eventor for events between {0} and {1}".format(dateStart,dateEnd))
+        url = "https://eventor.orienteering.asn.au/api/events?fromDate={0}&toDate={1}".format(dateStart, dateEnd)
     
     apikey =  os.environ.get('EventorAPIKey')
 
@@ -35,42 +39,83 @@ def GetMultiEventICSFile(namePrefix, synonymPrefix, dateStart, dateEnd):
                'ApiKey': apikey
             },
     )
+    ProcessXMLintoICS(response.content, namePrefix, synonymPrefix, locationPrefix)
 
 
+
+def ProcessXMLintoICS(xmlstring, namePrefix, synonymPrefix, locationPrefix):
     # loop through all the events limiting to the name
     #o = xmltodict.parse(response.content)
     #json.dumps(o)
     
-    root = etree.fromstring(response.content)
+    root = etree.fromstring(xmlstring)
+    alleventcount = int(root.xpath('count(//Event)'))
+    print("A total {0} events found for this period ".format(alleventcount))
 
-    if (synonymPrefix):
-        xpath = "/EventList/Event[(starts-with(Name,'{0}')) or (starts-with(Name,'{1}'))]/EventId".format(namePrefix, synonymPrefix)
+    if (alleventcount==0):
+        print("Exiting - No events to process")
     else:
-        xpath = "/EventList/Event[starts-with(Name,'{0}')]/EventId".format(namePrefix)
+        if (namePrefix):
+            if (synonymPrefix):
+                xpath = "/EventList/Event[(starts-with(Name,'{0}')) or (starts-with(Name,'{1}'))]/EventId".format(namePrefix, synonymPrefix)
+            else:
+                xpath = "/EventList/Event[starts-with(Name,'{0}')]/EventId".format(namePrefix)
+        else:
+            xpath = "/EventList/Event/EventId"
 
-    # also add the eventor message location if available
-    if (synonymPrefix):
-        xpath += " | /EventList/Event[(starts-with(Name,'{0}')) or (starts-with(Name,'{1}'))]/HashTableEntry[(Key='Eventor_Message') and starts-with(Value,'Location') ]/Value".format(namePrefix, synonymPrefix)
+        eventids = root.xpath(xpath)
+        eventcount = len(eventids)
+        print("Found {0} events -- prefix {1} or synonym {2}".format(eventcount, namePrefix, synonymPrefix))
+
+        if (eventcount==0):
+            print("Exiting - No named events to process")
+        else:
+            ProcessEventsintoICS(root, xpath, eventcount, namePrefix, synonymPrefix, locationPrefix)
+
+def ProcessEventsintoICS(root, xpath, eventcount, namePrefix, synonymPrefix, locationPrefix):
+
+    # if no prefix then just look for location
+    if (namePrefix):
+        # also add the eventor message location if available
+        if (synonymPrefix):
+            xpath += " | /EventList/Event[(starts-with(Name,'{0}')) or (starts-with(Name,'{1}'))]/HashTableEntry[(Key='Eventor_Message') and contains(Value,'{2}') ]/Value".format(namePrefix, synonymPrefix, locationPrefix)
+        else:
+            xpath += " | /EventList/Event[starts-with(Name,'{0}')]/HashTableEntry[(Key='Eventor_Message') and contains(Value, '{1}'}) ]/Value".format(namePrefix, locationPrefix)
     else:
-        xpath += " | /EventList/Event[starts-with(Name,'{0}')]/HashTableEntry[(Key='Eventor_Message') and starts-with(Value,'Location') ]/Value".format(namePrefix)
+          xpath += " | /EventList/Event/HashTableEntry[(Key='Eventor_Message') and contains(Value, '{0}') ]/Value".format(locationPrefix)
+
 
     eventids = root.xpath(xpath)
-    print("Searched and found {0} events".format(len(eventids)))
+    locCount = len(eventids)-eventcount
+
+    print("Found {0} locations".format(locCount))
 
     eventdata = {}
 
-
+    # for each event then add a location based on the eventid
     for eventid in eventids:
         if (eventid.tag=='EventId'):  
             eventdata[eventid.text] = ""
             lasteventid = eventid.text
         if (eventid.tag=="Value"):
-            location = ''.join(eventid.text.split('\n')[0:1])
-            location = location.replace("Location: ","")
-            eventdata[lasteventid] = location
-    
-    from ics import Calendar
+            # default is no location
+            location = "location unknonwn - was not found in eventor message"
+            # look for end of lines
+            if "\n" in eventid.text:
+                # split into lines looking for location
+                eventormessagelines = eventid.text.split('\n')
+                for line in eventormessagelines:
+                    if (line.startswith(locationPrefix)):
+                        location =  line.replace(locationPrefix,"")
+                        break
+            else:
+                # look in the text for prefix
+                if locationPrefix in eventid.text:
+                    location = eventid.text.replace(locationPrefix,"")
+            eventdata[lasteventid] = location    
 
+    # now the locations are extracted properly, then add it to the calendar
+    from ics import Calendar
     mainCal= None
     for key, value in eventdata.items():     
             icsURL = "https://eventor.orienteering.asn.au/Events/ICalendar/{0}".format(key)
@@ -78,7 +123,7 @@ def GetMultiEventICSFile(namePrefix, synonymPrefix, dateStart, dateEnd):
             
             print("Reading ICS file for event id {0}".format(key))  
             c = Calendar(requests.get(icsURL).text)
-            # create main calendar if it doesnt exist
+            # create main calendar if it doesn't exist
             if mainCal is None:
                 mainCal = c
                 for event in c.events: 
@@ -87,9 +132,17 @@ def GetMultiEventICSFile(namePrefix, synonymPrefix, dateStart, dateEnd):
                 for event in c.events: 
                     event.location = value
                     mainCal.events.add(event)
+            # for the calendar to be used it must be published
+            c.method = "PUBLISH"    
 
-    print("Writing combined {0} events".format(len(mainCal.events)))        
-    with open('{0}.ics'.format(namePrefix), 'w',newline='') as f:
+    print("Writing combined {0} events".format(len(mainCal.events)))    
+
+    if (namePrefix):
+        filename = namePrefix
+    else:
+        filename = "OrganisationEvents"
+
+    with open('{0}.ics'.format(filename), 'w',newline='') as f:
         f.writelines(mainCal)
         print(str(mainCal))
 
@@ -100,18 +153,17 @@ if __name__ == '__main__':
     #app.run(debug=True,host='0.0.0.0',port=80)
     sys.path.insert(0, os.path.abspath('..'))
 
-    #from clint.arguments import Args
-    #from clint.textui import puts, colored, indent
-
     import argparse
 
-    parser = argparse.ArgumentParser(description='Example with non-optional arguments')
+    parser = argparse.ArgumentParser(description='Arguments for event caldendar')
 
-    parser.add_argument('namePrefix', action="store")
+    parser.add_argument('-o', '--organisationIds', action="store", dest="orgIds", help='comma separated list fo organisationIds name for event')
+    parser.add_argument('-p', '--prefix', action="store", dest='namePrefix', help='prefix of event name')
     parser.add_argument('-s', '--synonym', action="store", dest="synonymPrefix", help='alternative name for event')
+    parser.add_argument('-l', '--location', action="store", dest="locationPrefix", help='identifier in the eventor message for location')
     parser.add_argument('startDate', action="store")
     parser.add_argument('endDate', action="store")
 
 
     args = parser.parse_args()
-    GetMultiEventICSFile(args.namePrefix, args.synonymPrefix, args.startDate, args.endDate)
+    GetMultiEventICSFile(args.orgIds, args.namePrefix, args.synonymPrefix, args.locationPrefix,args.startDate, args.endDate)
